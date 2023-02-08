@@ -108,7 +108,7 @@ strong {
 
 .custom-text {
   color: #212529;
-  font-family: Philosopher;
+  font-family: Philosopher!important;
   font-size: 20px;
   text-align: justify;
 }
@@ -121,9 +121,13 @@ strong {
   width: 49.6%
 }
 
+h1 {
+  font-family: Philosopher!important;
+}
+
 .custom-title {
   color: #212529;
-  font-family: Philosopher;
+  font-family: Philosopher!important;
   font-size: 40px;
   font-weight: bolder;
 }
